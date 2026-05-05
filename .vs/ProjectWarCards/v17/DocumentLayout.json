@@ -1,0 +1,789 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\loginscripts\\loginuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loginscripts\\loginuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|c:\\users\\nibi.exe\\unityprojects\\projectwarcards\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\prefabcontrol\\pileremaincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prefabcontrol\\pileremaincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\prefabcontrol\\pilediscardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prefabcontrol\\pilediscardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\api\\controllers\\gameapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\api\\controllers\\gameapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\api\\model\\mlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\api\\model\\mlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\api\\model\\mplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\api\\model\\mplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\cardsscripts\\dragobject2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardsscripts\\dragobject2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\combatunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\combatunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\cardsscripts\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardsscripts\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\spawntransformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\spawntransformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\deckpersoscripts\\actualdeckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deckpersoscripts\\actualdeckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\playzoneanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\playzoneanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\energybar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\energybar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\endturnui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\endturnui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\combatscripts\\cardinfouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatscripts\\cardinfouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\cardsscripts\\magictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardsscripts\\magictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\cardsscripts\\defensetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardsscripts\\defensetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\cardsscripts\\attacktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardsscripts\\attacktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\loginscripts\\registeruihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loginscripts\\registeruihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\menuscripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\assets\\scripts\\deckpersoscripts\\removecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303D18E8-4C3C-78AF-8483-060345C9BDFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deckpersoscripts\\removecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\MainMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CombatManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatUnit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CombatUnit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DeckManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EndTurnUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EndTurnUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\ShieldBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ShieldBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EnergyBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnergyBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\HandManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HandManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PlayZoneAnimationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayZoneAnimationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PlayZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\SpawnTransformManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpawnTransformManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\TurnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TurnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\API\\Model\\MStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\API\\Model\\MLogin.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\API\\Model\\MLogin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:48:42.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameAPIClient.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Controllers\\GameAPIClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\API\\Controllers\\GameAPIClient.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Controllers\\GameAPIClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\API\\Controllers\\GameAPIClient.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:50:55.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PileRemainControl.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PrefabControl\\PileRemainControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PrefabControl\\PileRemainControl.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PrefabControl\\PileRemainControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PrefabControl\\PileRemainControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T15:04:44.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PileDiscardControl.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PrefabControl\\PileDiscardControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PrefabControl\\PileDiscardControl.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PrefabControl\\PileDiscardControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PrefabControl\\PileDiscardControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T15:00:02.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransitionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\TransitionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TransitionManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\TransitionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TransitionManager.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:24:26.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:34:12.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuildControl.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\BuildControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildControl.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\BuildControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T14:07:09.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\LoginScripts\\LoginUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoginScripts\\LoginUIHandler.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\LoginScripts\\LoginUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoginScripts\\LoginUIHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T16:39:27.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\API\\Model\\MPlayer.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\API\\Model\\MPlayer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:48:24.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DragObject2D.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\DragObject2D.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardsScripts\\DragObject2D.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\DragObject2D.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardsScripts\\DragObject2D.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAApwJsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:34:45.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpawnTransformManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\SpawnTransformManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\SpawnTransformManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\SpawnTransformManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\SpawnTransformManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T16:35:45.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EndTurnUI.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\EndTurnUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\EndTurnUI.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\EndTurnUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\EndTurnUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:37:48.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\Enemy.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAowJ4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:39:12.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CombatUnit.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\CombatUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\CombatUnit.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\CombatUnit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\CombatUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:13:54.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cards.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\Cards.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardsScripts\\Cards.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\Cards.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardsScripts\\Cards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:56:06.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeckManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\DeckManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\DeckManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\DeckManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\DeckManager.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwFwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:35:02.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActualDeckManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckPersoScripts\\ActualDeckManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeckPersoScripts\\ActualDeckManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckPersoScripts\\ActualDeckManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeckPersoScripts\\ActualDeckManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:11:40.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CardInfoUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\CardInfoUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\CardInfoUIManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\CardInfoUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\CardInfoUIManager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwBMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:02:24.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\CombatManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\CombatManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\CombatManager.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAkwMcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:09:32.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HandManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\HandManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\HandManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\HandManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\HandManager.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAkwJEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:50:20.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayZoneAnimationController.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\PlayZoneAnimationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\PlayZoneAnimationController.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\PlayZoneAnimationController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\PlayZoneAnimationController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T16:31:21.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\EnemyAI.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:45:04.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:26:48.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MagicType.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\MagicType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardsScripts\\MagicType.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\MagicType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardsScripts\\MagicType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:58:39.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EnergyBar.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\EnergyBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatScripts\\EnergyBar.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatScripts\\EnergyBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatScripts\\EnergyBar.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:37:06.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DefenseType.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\DefenseType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardsScripts\\DefenseType.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\DefenseType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardsScripts\\DefenseType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:55:45.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AttackType.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\AttackType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardsScripts\\AttackType.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CardsScripts\\AttackType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardsScripts\\AttackType.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwFcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:49:09.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\LoginScripts\\RegisterUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoginScripts\\RegisterUIHandler.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\LoginScripts\\RegisterUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoginScripts\\RegisterUIHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:34:07.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\MenuScripts\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\MenuScripts\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\MainMenuController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T16:42:44.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RemoveCard.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckPersoScripts\\RemoveCard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeckPersoScripts\\RemoveCard.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckPersoScripts\\RemoveCard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeckPersoScripts\\RemoveCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:22:31.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MStats.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\API\\Model\\MStats.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\API\\Model\\MStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\API\\Model\\MStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:49:02.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:13:44.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PlayZoneAnimationController.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PlayZoneAnimationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayZoneAnimationController.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PlayZoneAnimationController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayZoneAnimationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T16:32:14.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CombatUnit.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatUnit.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatUnit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatUnit.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:16:33.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DeckManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeckManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\DeckManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeckManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:53:31.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EndTurnUI.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EndTurnUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndTurnUI.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EndTurnUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndTurnUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T18:38:44.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HandManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\HandManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\HandManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T16:05:38.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SpawnTransformManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\SpawnTransformManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnTransformManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\SpawnTransformManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnTransformManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T14:21:47.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAQwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:51:48.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EnergyBar.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EnergyBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnergyBar.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\EnergyBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnergyBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:07:13.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA2wDUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:19:23.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\CombatManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatManager.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAowCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:06:47.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TurnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\TurnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\TurnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:14:53.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PlayZone.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PlayZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayZone.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\PlayZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:40:32.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ShieldBar.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\ShieldBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShieldBar.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\ShieldBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShieldBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T14:27:41.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwD4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T15:09:42.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\Nibi.exe\\UnityProjects\\ProjectWarCards\\Assets\\Scripts\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T14:43:08.363Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
