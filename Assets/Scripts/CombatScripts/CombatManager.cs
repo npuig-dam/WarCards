@@ -77,7 +77,7 @@ public class CombatManager : MonoBehaviour
     }
 
     //Funcio per activar el SHIELD
-    public void GetShield(CombatUnit source, int amount)
+    public void GetShield(CombatUnit source, int amount, int MS)
     {
         //Debug per comprovar que funciona 
         Debug.Log(source.name + " now has " + amount + " shield");
@@ -86,7 +86,7 @@ public class CombatManager : MonoBehaviour
         CombatUnit target = source;
 
         //Es fa l'aplicacio de l'escut
-        target.TakeShield(amount);
+        target.TakeShield(amount, MS);
     }
 
     //Funcio per aplicar els estats dels personatges

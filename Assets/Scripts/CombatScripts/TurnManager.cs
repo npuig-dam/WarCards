@@ -46,6 +46,7 @@ public class TurnManager : MonoBehaviour
     //Metode pel torn del jugador 
     private void StartPlayerTurn()
     {
+        player.cardsPlayed = 0;
         //Es posa en true el torn i s'emplena la ma amb les cartes necessaries
         playerTurn = true;
         playerHand.StartPlayerTurn(playerHandSize);

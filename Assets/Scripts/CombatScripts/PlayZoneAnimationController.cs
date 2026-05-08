@@ -5,6 +5,9 @@ public class PlayZoneAnimationController : MonoBehaviour
 {
     //Referencia del animator de la zona de joc
     public Animator anim;
+    public AudioSource audioClipControl;
+    public AudioClip playClip;
+    public AudioClip enemyClip;
 
     void Start()
     {
@@ -16,8 +19,8 @@ public class PlayZoneAnimationController : MonoBehaviour
     public void Activate()
     {
         anim.SetBool("isPlayed", true);
+        audioClipControl.PlayOneShot(playClip);
         StartCoroutine(ReturnToFalse(0.1f, "isPlayed"));
-  
     }
 
 
@@ -32,6 +35,7 @@ public class PlayZoneAnimationController : MonoBehaviour
     public void EnemyPlays()
     {
         anim.SetBool("isEnemyTurn", true);
+        audioClipControl.PlayOneShot(enemyClip);
         StartCoroutine(ReturnToFalse(0.6f, "isEnemyTurn"));
 
     }

@@ -11,6 +11,8 @@ public class EnemyAI : MonoBehaviour
     //Transform del gameObject que s'utilitzara per instanciar
     public Transform enemyPlayZone;
 
+    public GameManager gameManager;
+
     [SerializeField]
     public PlayZoneAnimationController animController;
 
@@ -120,6 +122,11 @@ public class EnemyAI : MonoBehaviour
             EnemyBleedCount.text = "";
         }
 
+        if(enemy.currentHP <= 0)
+        {
+            gameManager.PlayerWon(true);
+            enemy.Die();
+        }
 
         //Metode que s'activara per agafar les cartes necessaries i jugarles (en aquest cas 3)
         for (int i = 0; i < cardsPerTurn; i++)

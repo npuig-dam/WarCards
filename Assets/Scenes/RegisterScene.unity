@@ -1141,7 +1141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &842816588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,8 +1157,10 @@ MonoBehaviour:
   startingDeckPrefabs: []
   deckPrefabs: []
   allExistingCards: []
+  audioBackgroundController: {fileID: 0}
   apiClient: {fileID: 0}
   universalPlayerId: 0
+  YouWon: 1
 --- !u!4 &842816589
 Transform:
   m_ObjectHideFlags: 0

@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public abstract class CombatUnit : MonoBehaviour
 {
+    public GameManager gameManager;
+
     //Variables uniques de vida i escut,
     // tant les variables com les fixes
     //podrien ser constants, pero o deixo 
@@ -72,14 +74,14 @@ public abstract class CombatUnit : MonoBehaviour
 
 
     //Metode per l'atribucio d'escut default
-    public virtual void TakeShield(int amount)
+    public virtual void TakeShield(int amount, int s)
     {
         currentShield += amount;
         
     }
 
     //Funcio editable per a cada unitat
-    protected abstract void Die();
+    public abstract void Die();
     
 
 

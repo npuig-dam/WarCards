@@ -71,6 +71,7 @@ public class DragObject2D : MonoBehaviour
     //Variable de vector per simular el hover
     private Vector3 targetPosition;
 
+    public AudioPrefab audioClipControl;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -96,6 +97,7 @@ public class DragObject2D : MonoBehaviour
         removecard = FindObjectOfType<RemoveCard>();
         gameManager = FindObjectOfType<GameManager>();
         actualDeckManager = FindObjectOfType<ActualDeckManager>();
+        audioClipControl = FindObjectOfType<AudioPrefab>();
     }
     private void Start()
     {
@@ -143,6 +145,8 @@ public class DragObject2D : MonoBehaviour
     private void OnMouseEnter()
     {
         if (isDragging) return;
+
+        audioClipControl.GetComponent<AudioSource>().Play();
 
         //Aquest If s'activa en cas de detectar un hover, per evitar un doble hover en cas
         //d'un clipeix, en teoria amb la separacio que hi ha no hauria de pasar
@@ -284,6 +288,7 @@ public class DragObject2D : MonoBehaviour
                         //la carta es jugada, i es crida el metode per
                         //jugarla de veritat
                         player.currentEnergy -= card.Cost;
+                        player.cardsPlayed++;
                         handManager.PlayCard(card);
                         played = true;
 
@@ -322,34 +327,50 @@ public class DragObject2D : MonoBehaviour
                 //Revisa si la carta forma part de les cartes de la ma principal
                 if (card.inTheMainHand)
                 {
-                    Debug.Log("Tret de la baralla");
+                    if(gameManager.startingDeckPrefabs.Count == 8)
+                    {
+                        Debug.Log("ara va joder");
+                    }
+                    else
+                    {
+                        Debug.Log("Tret de la baralla");
 
-                    //La carta surt de la ma principal
-                    card.inTheMainHand = false;
+                        //La carta surt de la ma principal
+                        card.inTheMainHand = false;
 
-                    //La carta es eliminada
-                    actualDeckManager.RemoveACard(card);
+                        //La carta es eliminada
+                        actualDeckManager.RemoveACard(card);
+                    }
+                        
                 }
                 else
                 {
                     //En cas de que en lloc de addCard sigui removeCard (si no es un, es l'altre)
                     // es creara un clon presistent per fer la simulacio visual instantanea
                     GameObject persistentClone = actualDeckManager.AddNewCard(card);
-                    gameManager.deckPrefabs.Add(persistentClone);
+
+                    if (persistentClone == null)
+                    {
+                        Debug.Log("a funcionat la negacio");
+                    }
+                    else
+                    {
+                        gameManager.deckPrefabs.Add(persistentClone);
 
 
 
-                    // Ara fem les gestions per modificar de forma real la baralla
-                    actualDeckManager.handSize = gameManager.deckPrefabs.Count;
-                    //Mostrara totes les cartes en el centre de edit
-                    actualDeckManager.ShowCard(actualDeckManager.handSize - 1);
-                    Debug.Log("Afegit a la baralla");
-                    
-                    //Fa un reset de les cartes actives per activar les noves
-                    gameManager.SetAllActive();
+                        // Ara fem les gestions per modificar de forma real la baralla
+                        actualDeckManager.handSize = gameManager.deckPrefabs.Count;
+                        //Mostrara totes les cartes en el centre de edit
+                        actualDeckManager.ShowCard(actualDeckManager.handSize - 1);
+                        Debug.Log("Afegit a la baralla");
 
-                    //Actualitza el layout de les cartes de edit perque no hi hagi clips
-                    actualDeckManager.UpdateDeckLayout();
+                        //Fa un reset de les cartes actives per activar les noves
+                        gameManager.SetAllActive();
+
+                        //Actualitza el layout de les cartes de edit perque no hi hagi clips
+                        actualDeckManager.UpdateDeckLayout();
+                    }
                 }
 
             }

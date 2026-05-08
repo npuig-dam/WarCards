@@ -67,8 +67,9 @@
     <Compile Include="Assets\Scripts\CombatScripts\ShieldBar.cs" />
     <Compile Include="Assets\Scripts\CombatScripts\EnergyBar.cs" />
     <Compile Include="Assets\Scripts\LoginScripts\LoginUIHandler.cs" />
-    <Compile Include="Assets\script.cs" />
+    <Compile Include="Assets\Scripts\SettingsController.cs" />
     <Compile Include="Assets\Scripts\LoginScripts\RegisterUIHandler.cs" />
+    <Compile Include="Assets\Scripts\TextControl.cs" />
     <Compile Include="Assets\Scripts\CombatScripts\Player.cs" />
     <Compile Include="Assets\Scripts\DeckPersoScripts\AddCard.cs" />
     <Compile Include="Assets\Scripts\CombatScripts\PlayZoneAnimationController.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\CombatScripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\CombatScripts\CardInfoUIManager.cs" />
     <Compile Include="Assets\Scripts\CardsScripts\Cards.cs" />
+    <Compile Include="Assets\Scripts\AudioPrefab.cs" />
     <Compile Include="Assets\Scripts\DeckPersoScripts\Tier2Spawner.cs" />
     <Compile Include="Assets\Scripts\TransitionManager.cs" />
     <Compile Include="Assets\Scripts\CombatScripts\HealthBar.cs" />

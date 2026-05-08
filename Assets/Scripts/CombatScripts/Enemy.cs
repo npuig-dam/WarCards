@@ -21,6 +21,11 @@ public class Enemy : CombatUnit
     [SerializeField]
     public TextMeshProUGUI UIShield;
 
+    //Audios
+    public AudioSource audioClipControl;
+    public AudioClip dmg;
+    public AudioClip shield;
+
     //Variable del nom (de moment no fa res pero mes endevant tindra una importancia)
     public string name = "Enemy";
 
@@ -62,6 +67,7 @@ public class Enemy : CombatUnit
 
         if (trueDmg)
         {
+            audioClipControl.PlayOneShot(dmg);
             //Si el trueDmg esta activat rep el dmg ignorant escut
             currentHP -= amount;
         }
@@ -69,6 +75,8 @@ public class Enemy : CombatUnit
         {
             if (currentShield > 0)
             {
+                audioClipControl.PlayOneShot(shield);
+
                 //Aqui es fa l'intercanvi entre el dmg i l'escut 
                 //utilitzo la funcio Min (matematica) que agafa entre els dos valors 
                 //el minim, ja que fa un equilibri perfecte, si el dmg es mes baix que
@@ -100,6 +108,7 @@ public class Enemy : CombatUnit
 
             }
 
+            if (amount > 0) audioClipControl.PlayOneShot(dmg);
 
             //El resultant de la operacio anterior es resta a la vida
             currentHP -= amount;
@@ -118,6 +127,8 @@ public class Enemy : CombatUnit
         //En cas de que l'enemic es mori
         if (currentHP <= 0)
         {
+            gameManager.PlayerWon(true);
+            Debug.Log("guanyat " + gameManager.YouWon);
             Die();
         }
 
@@ -145,7 +156,7 @@ public class Enemy : CombatUnit
     }
 
     //Funcio per veure l'escut resultant 
-    public override void TakeShield(int amount)
+    public override void TakeShield(int amount, int s)
     {
         //Es fa la resta i despres l'actualitzacio
         currentShield += amount;
@@ -154,11 +165,12 @@ public class Enemy : CombatUnit
     }
 
     //Metode per eliminar l'enemic
-    protected override void Die()
+    public override void Die()
     {
         Debug.Log(name+" a mort");
-        Destroy(gameObject);
-        SceneManager.LoadScene("MenuScene");
+    
+        Debug.Log("enemic " + gameManager.YouWon);
+        SceneManager.LoadScene("EndScene");
     }
 }
 

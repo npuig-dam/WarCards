@@ -7,6 +7,8 @@ public class EndTurnUI : MonoBehaviour
     public TurnManager turnManager;
     public Button endTurnButton;
 
+    public AudioSource audioClipControl;
+    public AudioClip buttonClick;
     void Start()
     {
         //Un Onclick del boto de Acabar torn
@@ -19,6 +21,7 @@ public class EndTurnUI : MonoBehaviour
         //Comprova si es el torn del player
         if (turnManager.IsPlayerTurn())
         {
+            audioClipControl.PlayOneShot(buttonClick);
             //Acaba el torn del jugador i desactiva el boto
             turnManager.EndPlayerTurn();
             endTurnButton.interactable = false;

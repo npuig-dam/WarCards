@@ -15,6 +15,8 @@ public class ActualDeckManager : MonoBehaviour
     public GameManager gameManager;
     public int handSize;
 
+    public int cardCount;
+
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -124,23 +126,42 @@ public class ActualDeckManager : MonoBehaviour
 
     public GameObject AddNewCard(Cards card)
     {
-        GameObject prefab = card.gameObject;
-        int id = card.cardId;
-        // 2. Increment your counter
-        handSize += 1;
-        gameManager.AddNewCardReal(id);
-        // 3. Return the reference to the Asset, not a scene instance
-        return prefab;
+        cardCount = gameManager.startingDeckPrefabs.Count;
+
+        if (cardCount == 12)
+        {
+            Debug.Log("Limit de cartes positiu");
+            return null;
+        }
+        else
+        {
+            GameObject prefab = card.gameObject;
+            int id = card.cardId;
+            
+            handSize += 1;
+            gameManager.AddNewCardReal(id);
+    
+            return prefab;
+        }
     }
 
     public void RemoveACard(Cards card)
     {
-        GameObject prefab = card.gameObject;
-        int id = card.cardId;
+        cardCount = gameManager.startingDeckPrefabs.Count;
 
-        handCards.Remove(card);
-        gameManager.RemoveACard(id);
-        Destroy(card.gameObject);
-        UpdateDeckLayout();
+        if (cardCount == 8)
+        {
+            Debug.Log("Limit de cartes negatiu");
+        }
+        else
+        {
+            GameObject prefab = card.gameObject;
+            int id = card.cardId;
+
+            handCards.Remove(card);
+            gameManager.RemoveACard(id);
+            Destroy(card.gameObject);
+            UpdateDeckLayout();
+        }
     }
 }

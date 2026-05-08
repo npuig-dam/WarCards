@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro; 
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,10 +10,12 @@ public class LoginUIHandler : MonoBehaviour
     public TMP_InputField passwordInput;
     public TransitionManager transManager;
     private bool loginSuccess;
+    public AudioSource audioController;
+    public AudioClip buttonClick;
 
     public async void OnLoginClick()
     {
-      
+        audioController.PlayOneShot(buttonClick);
         string user = usernameInput.text;
         string pass = passwordInput.text;
 
@@ -36,6 +39,15 @@ public class LoginUIHandler : MonoBehaviour
 
     public void OnRegisterClick()
     {
+        StartCoroutine(ActiveClickSound());
         SceneManager.LoadScene("RegisterScene");
     }
+
+    public IEnumerator ActiveClickSound()
+    {
+        audioController.PlayOneShot(buttonClick);
+
+        yield return 2f;
+    }
+
 }

@@ -15,17 +15,21 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> allExistingCards;
 
+    public AudioSource audioBackgroundController;
 
     public GameAPIClient apiClient;
 
     public int universalPlayerId;
 
+    public bool YouWon = true;
+
     void Awake()
     {
-   
-    
+        PlayerPrefs.SetFloat("MasterVolume", 1f);
+        AudioListener.volume = 1f;
 
-        //Si és el primer cop que es crea, guarden la instància i li assignem DontDestroyOnLoad
+
+
         if (instance == null)
         {
 
@@ -43,7 +47,6 @@ public class GameManager : MonoBehaviour
             SetAllActive();
       
         }
-        //Si és una altre GameManager l'eliminem perquè només volem un. (Patró Singleton)
         else
         {
             Destroy(gameObject);
@@ -62,7 +65,8 @@ public class GameManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Every time you change scene, we wipe and refill the active deck
+        float savedVolume = PlayerPrefs.GetFloat("MasterVolume", 1f);
+        AudioListener.volume = savedVolume;
         ResetDeck();
         
     }
@@ -123,7 +127,8 @@ public class GameManager : MonoBehaviour
 
     public async Task<bool> TryLogin(string user, string pass)
     {
-        
+
+
         Debug.Log("provant el login de usuari"+user);
 
         //Vale, com que no funcionaba el Await amb les corrutines, he hagut d'utilizar aquesta variable
@@ -226,7 +231,7 @@ public class GameManager : MonoBehaviour
                     Debug.Log("id player " + newUserId);
 
                  
-                    MPlayer newPlayer = new MPlayer(newUserId,newUserId, "1,1,1,1");
+                    MPlayer newPlayer = new MPlayer(newUserId,newUserId, "1,2,3,4,5,6,7,8,9");
                     StartCoroutine(apiClient.CreatePlayer(newPlayer));
                 }
                 else
@@ -330,6 +335,14 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("actualitza el player");
         StartCoroutine(apiClient.UpdatePlayer(universalPlayerId, updatedPlayer));
+    }
+
+    public void PlayerWon(bool yes)
+    {
+        Debug.Log("el bool funciona jodr "+yes);
+        GameManager.instance.YouWon = yes;
+
+        Debug.Log("HAS GUANYAT??? " + YouWon);
     }
 }
 
